@@ -1,59 +1,37 @@
-/* Global Styles */
+/* Basic styles for the body */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    margin: 20px;
+    background-color: #f0f0f0;
 }
 
-/* Header Styles */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-/* Navigation Styles */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Main Content Styles */
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-section h2 {
+/* Styling for main heading */
+h1 {
     color: #333;
 }
 
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+/* Container for the villain's information */
+.villain-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Styling for links */
+.links a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+.links a:hover {
+    text-decoration: underline;
 }
