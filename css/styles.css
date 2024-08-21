@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Apply a dark purple background color to the entire body */
+body {
+    background-color: #2e003e; /* Dark purple background */
+    color: #fff; /* White text color for contrast */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Style the main container to center its content */
+.container {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center-align text */
+}
+
+/* Style the villain-info container */
+.villain-info {
+    width: 80%;
+    max-width: 800px; /* Maximum width for better readability */
+    padding: 20px;
+    background-color: #3f0066; /* Slightly lighter dark purple background */
+    border: 2px solid #00ff00; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Style the main heading */
+h1 {
+    color: #ff0000; /* Red color for the heading */
+    margin: 0 0 20px 0; /* Remove top margin, add space below */
+    font-size: 2.5em; /* Increase the font size of the heading */
+}
+
+/* Style the image */
+img {
+    max-width: 70%; /* Make sure image does not overflow its container */
+    height: auto; /* Maintain aspect ratio of the image */
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+/* Style for paragraphs */
+p {
+    color: #ff0000; /* Red color for paragraphs */
+    line-height: 1.6; /* Increase line height for readability */
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+/* Add styling for links */
+a {
+    color: #00ff00; /* Green color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for the list of links */
+.links ul {
+    list-style: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+}
+
+.links li {
+    margin-bottom: 10px; /* Space between list items */
+}
